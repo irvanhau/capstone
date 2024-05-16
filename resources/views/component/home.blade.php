@@ -1,4 +1,4 @@
-<section id="home" class="banner-section pdb-10 d-flex align-items-center justify-content-center flex-wrap flex-column" style="background: linear-gradient(90deg, #6F6F6F, #242423) !important;height: 800px;width: auto">
+<section id="home" class="banner-section pdb-10 d-flex align-items-center justify-content-center flex-wrap flex-column" style="background: linear-gradient(90deg, #6F6F6F, #242423) !important;width: auto">
     <div class="frame">
         <div id="editor" class="d-flex justify-content-center flex-wrap flex-column">
             <div class="container">

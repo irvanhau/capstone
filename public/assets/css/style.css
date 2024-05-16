@@ -1029,7 +1029,7 @@ section.anim-object {
 .mean-container a.meanmenu-reveal {
   border: 1px solid #0c59db;
   color: #0c59db;
-  margin-top: -45px;
+  margin-top: -75px;
 }
 
 .mean-container a.meanmenu-reveal span {
@@ -1964,7 +1964,7 @@ section.anim-object {
 /* extra info */
 .side-panel-content {
   background: #fff;
-  height: 100vh;
+  height: 90vh;
   padding: 30px;
   position: fixed;
   right: 0;
@@ -5545,3 +5545,22 @@ select {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#container3D>canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#col-logo-footer{
+  text-align: center;
+  margin-top: -100px;
+}
+
+#logo-footer-widget{
+  margin-left: -100px
+}
+
+#logo-footer{
+  height: 500px !important;
+  width: 500px;
+}
