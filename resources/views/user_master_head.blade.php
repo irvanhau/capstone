@@ -11,4 +11,25 @@
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+
+	<style>
+		.frame { 
+			display: flex;
+			width: 100%;
+			height: 800px;
+		}
+		.frame>* {
+			flex: 1 1 50%;
+		}
+		#editor {
+			font-family: monospace;
+			padding: .5em;
+			color: white;
+			margin-left: 150px
+		}
+		#container3D { 
+			width: 100%;
+			height: 100%;
+		}
+	</style>
 </head>

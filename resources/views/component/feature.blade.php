@@ -4,7 +4,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="feature-box mrb-lg-60">
                     <div class="feature-thumb">
-                        <img class="img-full" src="http://placehold.it/375x250" alt="">
+                        <img class="img-full" src="{{asset('upload/feature/widget.png')}}" alt="">
                     </div>
                     <div class="feature-content" style="height: 200px">
                         <div class="title">
@@ -22,7 +22,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="feature-box mrb-lg-60">
                     <div class="feature-thumb">
-                        <img class="img-full" src="http://placehold.it/375x250" alt="">
+                        <img class="img-full" src="{{asset('upload/feature/homecontrol.png')}}" alt="">
                     </div>
                     <div class="feature-content" style="height: 200px">
                         <div class="title">
@@ -40,7 +40,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="feature-box">
                     <div class="feature-thumb">
-                        <img class="img-full" src="http://placehold.it/375x250" alt="">
+                        <img class="img-full" src="{{asset('upload/feature/cloud.png')}}" alt="">
                     </div>
                     <div class="feature-content" style="height: 200px">
                         <div class="title">

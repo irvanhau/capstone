@@ -309,10 +309,12 @@ ul li {
   background: #0c59db;
 }
 .cs-btn-one.btn-primary-color {
-  background: #0c59db;
+  /* background: #0c59db; */
+  background: linear-gradient(90deg, #FF5757, #8C52FF) !important;
 }
 .cs-btn-one.btn-primary-color:hover {
-  background: #17305e;
+  /* background: #17305e; */
+  background: linear-gradient(-20deg, #FF5757, #8C52FF) !important;
 }
 .cs-btn-one.btn-gradient-color {
   background: linear-gradient(90deg,#FF5757,#8C52FF) !important;
@@ -607,7 +609,7 @@ section.anim-object {
   font-size: 16px;
 }
 .social-list li a:hover {
-  background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+  background: linear-gradient(90deg, #FF5757, #8C52FF) !important;
 }
 .social-list.list-primary-color li a {
   background: #0c59db;
@@ -806,7 +808,7 @@ section.anim-object {
 
 .video-popup a i::before {
   font-size: 90px;
-  background: #0c59db;
+  background: #8C52FF;
   border-radius: 50%;
   line-height: 100px;
 }
@@ -902,12 +904,12 @@ section.anim-object {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 0 rgba(12, 89, 219, 0.6);
-  -khtml-box-shadow: 0 0 0 0 rgba(12, 89, 219, 0.6);
-  -moz-box-shadow: 0 0 0 0 rgba(12, 89, 219, 0.6);
-  -ms-box-shadow: 0 0 0 0 rgba(12, 89, 219, 0.6);
-  -o-box-shadow: 0 0 0 0 rgba(12, 89, 219, 0.6);
-  box-shadow: 0 0 0 0 rgba(12, 89, 219, 0.6);
+  -webkit-box-shadow: 0 0 0 0 #8C52FF;
+  -khtml-box-shadow: 0 0 0 0 #8C52FF;
+  -moz-box-shadow: 0 0 0 0 #8C52FF;
+  -ms-box-shadow: 0 0 0 0 #8C52FF;
+  -o-box-shadow: 0 0 0 0 #8C52FF;
+  box-shadow: 0 0 0 0 #8C52FF;
   -webkit-animation: pulse-animation 3s infinite;
   -khtml-animation: pulse-animation 3s infinite;
   -moz-animation: pulse-animation 3s infinite;
@@ -2147,19 +2149,19 @@ textarea.form-control {
 .request-a-call-back-form {
   background: #fff;
   padding: 55px 50px 60px 50px;
-  -webkit-box-shadow: -5px -1px 15px 10px rgba(38, 37, 37, 0.1);
-  -khtml-box-shadow: -5px -1px 15px 10px rgba(38, 37, 37, 0.1);
-  -moz-box-shadow: -5px -1px 15px 10px rgba(38, 37, 37, 0.1);
-  -ms-box-shadow: -5px -1px 15px 10px rgba(38, 37, 37, 0.1);
-  -o-box-shadow: -5px -1px 15px 10px rgba(38, 37, 37, 0.1);
-  box-shadow: -5px -1px 15px 10px rgba(38, 37, 37, 0.1);
+  -webkit-box-shadow: -5px -1px 15px 10px #8c52ff41;
+  -khtml-box-shadow: -5px -1px 15px 10px #8c52ff41;
+  -moz-box-shadow: -5px -1px 15px 10px #8c52ff41;
+  -ms-box-shadow: -5px -1px 15px 10px #8c52ff41;
+  -o-box-shadow: -5px -1px 15px 10px #8c52ff41;
+  box-shadow: -5px -1px 15px 10px #8c52ff41;
   margin-top: 30px;
   margin-left: -90px;
   position: relative;
 }
 
 .request-a-call-back-form:after {
-  border-color: #0c59db transparent transparent #3032A2;
+  border-color: #8C52FF transparent transparent #8C52FF;
   content: "";
   position: absolute;
   border-width: 12px 12px 12px 12px;
@@ -2175,7 +2177,7 @@ textarea.form-control {
   position: absolute;
   content: "";
   border-width: 12px 12px 12px 12px;
-  border-color: #0c59db #3032A2 transparent transparent;
+  border-color: #8C52FF #8C52FF transparent transparent;
   top: 0;
   right: 0;
   height: 64px;
@@ -2843,7 +2845,7 @@ select {
 .feature-content:after {
   border-radius: 15px;
   position: absolute;
-  background: #0c59db;
+  background: #8C52FF;
   height: 3px;
   width: 0;
   left: 0;
@@ -2870,7 +2872,7 @@ select {
 
 .feature-box .link a {
   position: absolute;
-  background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+  background: linear-gradient(90deg, #FF5757, #8C52FF) !important;
   color: #fff;
   height: 45px;
   width: 85px;
@@ -3687,7 +3689,7 @@ select {
   z-index: 2;
 }
 .team-block .team-bottom-part .designation {
-  color: #0c59db;
+  color: #000;
   -moz-transition: all 400ms ease-out 0s;
   -webkit-transition: all 400ms ease-out 0s;
   -ms-transition: all 400ms ease-out 0s;
@@ -3710,7 +3712,7 @@ select {
 .team-block:after {
   position: absolute;
   content: "";
-  background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+  background: linear-gradient(45deg, #FF5757, #8C52FF) !important;
   height: 8%;
   width: 12px;
   bottom: 0;
@@ -3723,7 +3725,7 @@ select {
   position: absolute;
   height: 70px;
   width: 80px;
-  background: linear-gradient(-20deg, #0E90D5, #3032A2) !important;
+  background: linear-gradient(-20deg, #FF5757, #8C52FF) !important;
   bottom: -30px;
   left: -50px;
   transform: rotate(45deg);
@@ -3731,7 +3733,7 @@ select {
   opacity: 0.6;
 }
 .team-block:hover {
-  background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+  background: linear-gradient(45deg, #FF5757, #8C52FF) !important;
 }
 .team-block:hover:after {
   content: none;

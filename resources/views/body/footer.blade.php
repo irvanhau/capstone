@@ -1,11 +1,11 @@
 <!-- Footer Area Start -->
 	<footer class="footer">
-		<div class="footer-main-area" data-background="images/footer-bg.png">
+		<div class="footer-main-area" style="height: 400px">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xl-6 col-lg-6 col-md-6">
-						<div class="widget footer-widget">
-							<img src="{{asset('upload/logo/logo.png')}}" width="300" alt="" class="mrb-20">
+					<div class="col-xl-6 col-lg-6 col-md-6" style="text-align: center;margin-top: -100px;">
+						<div class="widget footer-widget" style="margin-left: -100px">
+							<img src="{{asset('upload/logo/pai.png')}}" width="500" alt="" class="mrb-20" style="height: 500px !important">
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-6 col-md-6">
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-bottom-area">
+		<div class="footer-bottom-area" style="height: 90px; padding-top: 40px !important">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
